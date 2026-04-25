@@ -1,0 +1,42 @@
+ h1{
+     color:blue;
+      background-color: rgb(137, 131, 231) ;
+      text-align: center;          //* first */
+      border:solid;
+      width:50%;
+      text-decoration: wavy red  underline;    /* third  */
+      letter-spacing: 5px ;             /* fifth  */
+      font-size: 50px;
+      font-family: avant garde , didot ,sans-serif;
+}
+
+h2{
+    color:#ffff00;    /* hex code */ 
+    text-decoration:double blue overline;
+
+}
+
+p{
+    color:aqua;
+    background-color: rgb(3, 67, 67);
+    text-align: end;
+    line-height:  2.5;  /* fourth*/
+    font-family: impact;
+
+}
+
+
+button{
+    color:brown;
+    background-color: rgb(244, 101, 101);
+}
+
+h3{
+    text-align: start;
+    font-weight: normal;              /* font-weight */
+    text-decoration:dotted pink line-through;
+}
+
+a{
+    text-decoration: none;
+}

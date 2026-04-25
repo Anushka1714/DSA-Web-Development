@@ -1,0 +1,94 @@
+#container{
+    height: 600px;
+    width: 60%;
+    border: 2px solid black;
+    background-color: azure;
+    margin :10px auto;
+
+/* flex property */
+
+    display: flex;    /*by default direction is row*/
+/* want to change the direction of flex */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+
+/* justify content */
+
+justify-content: flex-start;
+/* justify-content: flex-end; */
+/* justify-content: space-between; */
+/* justify-content: space-around; */
+/* justify-content: space-evenly; */
+
+
+
+
+/* flex wrap */
+
+/* flex-wrap: nowrap; */
+/* flex-wrap: wrap; */
+/* flex-wrap: wrap-reverse; */
+
+
+
+/* align items */
+
+/* align-items: flex-start; */
+/* align-items: flex-end; */
+/* align-items: center; */
+/* align-items: baseline; */
+
+
+/* align content */
+
+/* align-content: flex-start; */
+/* align-content: flex-end; */
+/* align-content: center; */
+align-content: flex-start;
+/* align-content: space-between; */
+/* align-content: space-around; */
+/* align-content: space-evenly; */
+/* align-content: baseline; */
+}
+
+
+/* align-self */
+
+#orange{
+    align-self: flex-start;
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-self: baseline; */
+
+/* flex sizing */
+     
+    /* flex-basis: 300px;    /*itni space hi nh h ki yeh 300px cover le to hm ise km krenge */
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+    flex:2 2 100px
+}
+
+
+#blue{
+    /* flex-basis: 200px; */
+    /* flex-grow: 2 ; */
+    /* max-width: 400px; */
+    /* flex-shrink: 2; */
+}
+
+h1{
+    text-align: center;
+}
+
+
+#container div{
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}

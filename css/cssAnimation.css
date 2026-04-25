@@ -1,0 +1,135 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+    animation-direction: alternate;
+
+
+
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: alternate;
+
+
+
+
+     /* animation-name: widthAnimate;
+    animation-duration:2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: alternate; */
+
+
+    animation: colAnimate 2s ease-in 0s 3 normal;
+}
+
+
+
+/* create the blueprint of animation */
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+    to{
+        font-size:40px;
+    }
+}
+
+
+
+
+
+@keyframes colorAnimate {
+    from {
+       background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+
+
+@keyframes colAnimate {
+    0% {
+       background-color: green;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: yellow;
+    }
+}
+
+
+
+@keyframes widthAnimate {
+    from {
+      width: 10px;
+      background-color: green;
+
+    }
+    to{
+        width: 400px;
+        background-color: blue;
+        border-radius: 15px;
+    }
+}
+
+
+
+h1{
+    background-color: yellow;
+}
+
+@media(width:400px){
+    h1{
+        background-color: red;
+
+        color: white;
+    }
+}
+
+
+@media(min-width:700px){
+    h1{
+        background-color: greenyellow;
+    }
+}
+
+
+@media(max-width:200px){
+    h1{
+        background-color: rgb(31, 32, 139);
+    }
+}
+
+
+@media(min-width:200px) and  (max-width:300px){
+    h1{
+        background-color: teal;
+    }
+}
+
+
+
+@media(orientation: landscape){
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}
