@@ -1,0 +1,175 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: greenyellow; */
+    /* background-color: #acff2f8e;    the last e is the opacity of color */
+
+
+/* transtion property */
+    /* transition: 5s;
+    transition-duration: 1s;   
+    transition-delay: 1s ;
+    transition-timing-function: linear; */
+    /* margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 2s ease-in-out 0.2s;
+
+}   */
+
+/* #opacity{
+    background-color: yellow;
+    opacity: 0.5 ;
+}  */
+
+
+
+/* div:hover{
+    margin-top: 400px;
+    background-color: pink;
+}
+
+
+section{
+    margin-top: 100px;
+} */
+/* 
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+} */
+/* transform */
+
+/* #one{
+    transform: rotate(45deg);
+}
+
+#two{
+    transform: scale(0.5);
+    transform: scale(x0.5,y1.5);
+} */
+
+/* #three{
+    transform: translate(50px,50px);
+    transform: translateX(10px);
+    transform: translateY(10px);
+} */
+
+
+
+
+/* box shadow */
+/* div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    margin: 10px auto;
+    box-shadow: 2px 2px 10px   ;
+} */
+
+
+/* div{
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("3.jpg");
+    background-size:contain ;    image is repeating to cover the width because we have some space left 
+    background-size: cover;     it crop the imag to fill the width and height
+     background-size: auto;        it will str etch the image upto the height and width 
+} */
+
+
+
+
+
+
+
+  /*    card hover  */
+/* .card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+    transition: 1s;
+}
+
+
+.desc{
+    padding:0px 2px 0px 2px; 
+}
+
+img{
+    width: 100%;
+    border-radius: 5px 5px;
+}
+
+
+.card:hover{
+    box-shadow: 8px 8px 18px goldenrod ;
+} */
+
+
+
+
+
+/* position */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    text-align: center;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block;
+}
+
+
+#static{
+    background-color: yellow;
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+#relative{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+
+#absolute{
+    background-color: pink;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+
+#fixed{
+    background-color: brown;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
